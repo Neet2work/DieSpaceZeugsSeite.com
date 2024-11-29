@@ -1,4 +1,9 @@
+<?php
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
 
+require_once "./assets/layout/header.php";
+?>
     <main>
         <h3>Einloggen</h3>
         <div class="login-form">
