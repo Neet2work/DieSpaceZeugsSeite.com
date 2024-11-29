@@ -1,0 +1,98 @@
+
+/* Header-Stile */
+header {
+    background-image: url('spaceup2.jpg'); /* Bild-URL */
+    background-size: cover; /* Skaliert das Bild, um das gesamte Element zu füllen */
+    background-repeat: no-repeat; /* Wiederholt das Bild nicht */
+    background-position: center; /* Zentriert das Bild */
+    height: 50px; /* Höhe des Headers */
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* Navigationsleiste */
+nav {
+    background: linear-gradient(to right, 
+    darkred, orangered, darkblue, lightblue, violet);
+    background-blend-mode: overlay;
+    padding: 0.5rem 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: gold; /* Goldene Links */
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+    color: #ff0000; /* Helle Rot-Farbe bei Hover */
+}
+
+/* Hauptinhalt */
+main {
+    padding: 2rem;
+    text-align: center;
+}
+
+/* Login-Formular */
+.login-form {
+    max-width: 300px;
+    margin: 2rem auto;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+.login-form input {
+    width: 100%;
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.login-form button {
+    width: 100%;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.login-form button:hover {
+    background-color: gold; /* Gold bei Hover */
+    color: black; /* Schwarzer Text */
+}
+
+/* Footer-Stile */
+footer {
+    background: linear-gradient(to right, 
+                darkred, orangered, darkblue, lightblue, violet),
+                linear-gradient(to bottom, transparent, black); /* Vertikaler Schwarzverlauf */
+    background-blend-mode: overlay; /* Überlagert die Ebenen */
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
