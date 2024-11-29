@@ -3,7 +3,7 @@
         <h2>Kontaktformular</h2>
         <form action="kontaktformularVersenden.php" method="POST" style="max-width: 600px; margin: 0 auto;">
             <!-- Kundendaten -->
-            <fieldset style="border: 1px solid #ccc; padding: 15px; margin-bottom: 20px; background-color: black;">
+            <fieldset style="border: 1px solid #ccc; padding: 15px; margin-bottom: 20px; background: linear-gradient(to right, darkred, orangered, darkblue, lightblue, violet); background-blend-mode: overlay;">
                 <legend style="font-weight: bold;">Kundendaten</legend>
                 <label for="vorname">Vorname:</label><br>
                 <input type="text" id="vorname" name="vorname" required style="width: 97.5%; padding: 8px; margin-bottom: 10px;"><br>
@@ -19,7 +19,7 @@
             </fieldset>
 
             <!-- Betreff -->
-            <fieldset style="border: 1px solid #ccc; padding: 15px; margin-bottom: 20px; background-color: black;">
+            <fieldset style="border: 1px solid #ccc; padding: 15px; margin-bottom: 20px; background: linear-gradient(to right, darkred, orangered, darkblue, lightblue, violet); background-blend-mode: overlay;">
                 <legend style="font-weight: bold;">Nachricht</legend>
                 <label for="betreff">Betreff:</label><br>
                 <input type="text" id="betreff" name="betreff" required style="width: 97.5%; padding: 8px; margin-bottom: 10px;"><br>
