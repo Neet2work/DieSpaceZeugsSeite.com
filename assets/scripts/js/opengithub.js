@@ -14,7 +14,7 @@ function openGitHubLink(event) {
                 <title>GitHub Link</title>
                 <style>
                     body {
-                        background-image : url('./assets/image/spaceup.jpg');
+                        background-image : url('./assets/image/space2.jpg');
                         background-size: cover;
                         background-repeat: no repeat;
                         background-position: center;

@@ -1,4 +1,8 @@
-
+video {
+    display: block; /* Ensure the video is visible */
+    width: 100%; /* Optional: set a width */
+    height: auto; /* Maintain aspect ratio */
+}
 /* Header-Stile */
 header {
     background-image: url('spaceup2.jpg'); /* Bild-URL */
@@ -52,6 +56,8 @@ main {
     padding: 2rem;
     text-align: center;
 }
+
+
 
 /* Login-Formular */
 .login-form {
