@@ -18,6 +18,8 @@ if ($data) {
     // Generate a unique file name with timestamp and date
     $timestamp = date("Y-m-d_H-i-s"); // Format: YYYY-MM-DD_HH-MM-SS
     $file = __DIR__ . "/submissions/kontaktformular_$timestamp.txt";
+    echo "Saving file to: $file\n";
+
 
     // Write the content to a new file
     file_put_contents($file, $content);
