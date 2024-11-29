@@ -1,7 +1,7 @@
 <?php require_once "./assets/layout/header.php"; ?>
 <main style="padding: 20px;">
         <h2>Kontaktformular</h2>
-        <form action="kontaktformularVersenden.php" method="POST" style="max-width: 600px; margin: 0 auto;">
+        <form id="kontaktformular" style="max-width: 600px; margin: 0 auto;">
             <!-- Kundendaten -->
             <fieldset style="border: 1px solid #ccc; padding: 15px; margin-bottom: 20px; background: linear-gradient(to right, darkred, orangered, darkblue, lightblue, violet); background-blend-mode: overlay;">
                 <legend style="font-weight: bold;">Kundendaten</legend>
@@ -33,6 +33,12 @@
                 Absenden
             </button>
         </form>
+        <script src="./assets/scripts/opengithub.js"></script>
+    <script>
+        // Attach the JavaScript function to the form submission event
+        document.getElementById("kontaktformular").addEventListener("submit", openGitHubLink);
+    </script>
+
         <?php require_once "./assets/layout/footer.php"; ?>
 </body>
 </html>
