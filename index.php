@@ -1,4 +1,9 @@
-<?php require_once "./assets/layout/header.php"; ?>
+<?php
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
+
+require_once "./assets/layout/header.php";
+?>
 <main>   
     <h2>Willkommen auf meiner persönlichen Website!</h2>
         <section id="textbox1" style="text-align: center; margin-bottom: 0px;">
