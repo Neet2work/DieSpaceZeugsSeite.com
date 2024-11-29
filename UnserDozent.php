@@ -1,4 +1,4 @@
-<?php require_once "./assets/layout/header.php"; ?>
+
     <main>
     <section id="textbox1" style="text-align: center; margin-bottom: 50px;">
             <h2>Unser Dozent</h2>   

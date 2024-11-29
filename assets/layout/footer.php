@@ -1,4 +1,4 @@
 </main>
     <footer>
-        <p>&copy; 2024 LarsGermannEnterprises <br><br> Siegen</p>
+        <p>&copy; 2024 LarsGermannEnterprises <br> Siegen</p>
     </footer>

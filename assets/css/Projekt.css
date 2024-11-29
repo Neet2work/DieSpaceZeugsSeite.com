@@ -3,9 +3,10 @@ video {
     width: 100%; /* Optional: set a width */
     height: auto; /* Maintain aspect ratio */
 }
+
 /* Header-Stile */
 header {
-    background-image: url('spaceup2.jpg'); /* Bild-URL */
+    background-image: url('../image/spaceup2.jpg'); /* Bild-URL */
     background-size: cover; /* Skaliert das Bild, um das gesamte Element zu füllen */
     background-repeat: no-repeat; /* Wiederholt das Bild nicht */
     background-position: center; /* Zentriert das Bild */
@@ -13,6 +14,18 @@ header {
     color: white;
     padding: 1rem;
     text-align: center;
+}
+
+body {
+    background-image: url('../image/spaceup.jpg'); /* Bild-URL */
+    background-size: cover; /* Skaliert das Bild, um das gesamte Element zu füllen */
+    background-repeat: no-repeat; /* Wiederholt das Bild nicht */
+    background-position: center; /* Zentriert das Bild */
+    height: 750px; /* Höhe des Headers */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: whitesmoke; /* Dunkle Schriftfarbe */
 }
 
 header h1 {
@@ -91,14 +104,15 @@ main {
 
 /* Footer-Stile */
 footer {
-    background: linear-gradient(to right, 
-                darkred, orangered, darkblue, lightblue, violet),
-                linear-gradient(to bottom, transparent, black); /* Vertikaler Schwarzverlauf */
-    background-blend-mode: overlay; /* Überlagert die Ebenen */
+    background: linear-gradient(to right, darkred, orangered, darkblue, lightblue, violet),
+                linear-gradient(to bottom, transparent, black); /* Vertical black gradient */
+    background-blend-mode: overlay; /* Overlay blend mode */
     color: white;
     text-align: center;
-    padding: 1rem;
     position: fixed;
     bottom: 0;
     width: 100%;
+    min-height: 40px; /* Consistent height for the footer */
+    padding: 10px 0; /* Adds spacing for text inside the footer */
+    box-sizing: border-box; /* Ensures padding doesn’t add extra height */
 }

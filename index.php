@@ -1,5 +1,5 @@
 <?php require_once "./assets/layout/header.php"; ?>
-    <main>   
+<main>   
     <h2>Willkommen auf meiner persönlichen Website!</h2>
         <section id="textbox1" style="text-align: center; margin-bottom: 0px;">
             <h3>Über mich</h3>   

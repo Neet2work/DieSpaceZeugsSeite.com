@@ -1,4 +1,4 @@
-<?php require_once "./assets/layout/header.php"; ?>
+
     <main>
         <h3>Einloggen</h3>
         <div class="login-form">

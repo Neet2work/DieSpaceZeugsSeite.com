@@ -1,4 +1,4 @@
-<?php require_once "./assets/layout/header.php"; ?>
+
 <main style="padding: 20px;">
         <h2>Kontaktformular</h2>
         <form id="kontaktformular" style="max-width: 600px; margin: 0 auto;">
