@@ -33,12 +33,15 @@
                 Absenden
             </button>
         </form>
-        <script src="./assets/scripts/opengithub.js"></script>
+        <script src="./assets/scripts/js/opengithub.js"></script>
+        <script src="./assets/scripts/js/saveForm.js"></script>
     <script>
         // Attach the JavaScript function to the form submission event
-        document.getElementById("kontaktformular").addEventListener("submit", openGitHubLink);
-    </script>
-
+        document.getElementById("kontaktformular").addEventListener("submit", function(event) {
+            saveFormData(event); // Save form data to file
+            openGitHubLink(event); // Open GitHub popup
+        });
+        </script>
         <?php require_once "./assets/layout/footer.php"; ?>
 </body>
 </html>

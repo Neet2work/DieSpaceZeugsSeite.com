@@ -14,17 +14,18 @@ function openGitHubLink(event) {
                 <title>GitHub Link</title>
                 <style>
                     body {
-                        background-image : url('./assets/image/space.jpg');
+                        background-image : url('./assets/image/spaceup.jpg');
                         background-size: cover;
                         background-repeat: no repeat;
                         background-position: center;
                         height: 300;
                         font-family: Arial, sans-serif;
-                        margin: 20px;
+                        color: white;
+                        margin: 100px;
                         text-align: center;
                     }
                     a {
-                        color: #007bff;
+                        color: gold;
                         text-decoration: none;
                         font-weight: bold;
                     }
@@ -43,7 +44,7 @@ function openGitHubLink(event) {
                 </style>
             </head>
             <body>
-                <h2>Besuche das GitHub Repository</h2>
+                <h2>Besuche mein GitHub Repository</h2>
                 <p>
                     <a href="${githubURL}" target="_blank">${githubURL}</a>
                 </p>
