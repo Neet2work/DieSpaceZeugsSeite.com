@@ -1,7 +1,22 @@
+/* General body styles for all pages */
+body {
+    background-image: url('../image/spaceup.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    color: whitesmoke;
+    font-family: Arial, sans-serif;
+    overflow-y: auto; /* Allow vertical scrolling by default */
+    min-height: 100vh; /* Ensure body takes at least full viewport height */
+}
+
 /* Main styling for contact page */
 .contact-main {
     padding: 20px;
-    overflow-y: scroll;
+    overflow: auto; /* Enable scrolling for the contact page */
+    min-height: calc(100vh - 50px); /* Account for header/footer height */
 }
 
 /* Styling for the form */
@@ -125,14 +140,20 @@
 
 /* Header-Stile */
 header {
-    background-image: url('../image/spaceup2.jpg'); /* Bild-URL */
-    background-size: cover; /* Skaliert das Bild, um das gesamte Element zu füllen */
-    background-repeat: no-repeat; /* Wiederholt das Bild nicht */
-    background-position: center; /* Zentriert das Bild */
-    height: 50px; /* Höhe des Headers */
-    color: white;
-    padding: 1rem;
-    text-align: center;
+    background-image: url('../image/spaceup2.jpg'); /* Header background image */
+    background-size: cover; /* Scale the image to fill the header */
+    background-repeat: no-repeat; /* Prevent image repeat */
+    background-position: center; /* Center the background image */
+    height: 50px; /* Header height */
+    color: white; /* Header text color */
+    position: fixed; /* Fix the header to the top of the viewport */
+    top: 0; /* Position at the top of the viewport */
+    left: 0; /* Align with the left edge */
+    width: 100%; /* Make header span the full width of the viewport */
+    z-index: 1000; /* Ensure it is above other elements */
+    padding: 0.5rem; /* Padding inside the header */
+    text-align: center; /* Center align header content */
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5); /* Optional: add shadow for depth */
 }
 
 body {
