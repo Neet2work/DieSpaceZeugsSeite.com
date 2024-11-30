@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-    <base href="/DieSpaceZeugsSeite.com/">
-    <link rel="stylesheet" href="./assets/css/Projekt.css">
+    <link rel="stylesheet" href="Projekt.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Über mich</title>
