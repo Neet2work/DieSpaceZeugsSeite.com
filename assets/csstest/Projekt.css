@@ -14,6 +14,72 @@ body {
     overflow-y: auto; /* Enable vertical scrolling */
 }
 
+/* Header-Stile */
+header {
+    background-image: url('/DieSpaceZeugsSeite.com//assets/image/spaceup2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 50px;
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    padding: 0.5rem;
+    text-align: center;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
+    box-sizing: border-box;
+}
+
+/* Navigationsleiste */
+nav {
+    background: linear-gradient(to right, darkred, orangered, darkblue, lightblue, violet);
+    background-blend-mode: overlay;
+    padding: 0.5rem 0;
+    text-align: center;
+    position: fixed;
+    top: 50px;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: gold; /* Goldene Links */
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+    color: #ff0000; /* Helle Rot-Farbe bei Hover */
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* Hauptinhalt */
+main {
+    padding: 2rem;
+    text-align: center;
+}
+
 /* Main styling for contact page */
 .contact-main {
     padding: 20px;
@@ -138,75 +204,6 @@ body {
 .media-video {
     width: 360px;
 }
-
-
-/* Header-Stile */
-header {
-    background-image: url('./assets/image/spaceup2.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 50px;
-    color: white;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 1000;
-    padding: 0.5rem;
-    text-align: center;
-    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
-    box-sizing: border-box;
-}
-
-/* Navigationsleiste */
-nav {
-    background: linear-gradient(to right, darkred, orangered, darkblue, lightblue, violet);
-    background-blend-mode: overlay;
-    padding: 0.5rem 0;
-    text-align: center;
-    position: fixed;
-    top: 50px;
-    left: 0;
-    width: 100%;
-    z-index: 999;
-    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
-}
-
-nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-}
-
-nav ul li {
-    margin: 0 1rem;
-}
-
-nav ul li a {
-    text-decoration: none;
-    color: gold; /* Goldene Links */
-    font-weight: bold;
-}
-
-nav ul li a:hover {
-    text-decoration: underline;
-    color: #ff0000; /* Helle Rot-Farbe bei Hover */
-}
-
-header h1 {
-    margin: 0;
-}
-
-/* Hauptinhalt */
-main {
-    padding: 2rem;
-    text-align: center;
-}
-
-
 
 /* Login-Formular */
 .login-form {

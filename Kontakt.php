@@ -2,7 +2,7 @@
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
 
-require_once "./assets/layout/header.php";
+require_once "/xampp/htdocs/DieSpaceZeugsSeite.com/assets/layout/header.php";
 ?>
 <main class="contact-main">
     <h2>Kontaktformular</h2>

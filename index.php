@@ -2,7 +2,7 @@
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
 
-require_once "./assets/layout/header.php";
+require_once "/xampp/htdocs/DieSpaceZeugsSeite.com/assets/layout/header.php";
 ?>
 <main>   
     <h2>Willkommen auf meiner persönlichen Website!</h2>
@@ -10,7 +10,11 @@ require_once "./assets/layout/header.php";
             <h3>Über mich</h3>   
             <div style=
                 "height: 210px; background: linear-gradient(to right, darkred, orangered, darkblue, lightblue, violet); background-blend-mode: overlay; color: white; display: inline-block; width: 40%;">
-                <br><br>Hallo, ich bin Lars Germann. <br><br>Meines Zeichnes ein unfassbar talentierter, kluger, hübscher und muskolöser <br><br>Programmierer und Systemintegrator.<br><br> Ich bin im Kurs Web Programmierung von Ali Khorsandfard.</div>
+                <br><br>Hallo, ich bin Lars Germann. 
+                <br><br>Meines Zeichnes ein unfassbar talentierter, kluger, hübscher und muskolöser 
+                <br><br>Programmierer und Systemintegrator.
+                <br><br> Ich bin im Kurs Web Programmierung von Ali Khorsandfard.
+            </div>
             <p style="display: inline-block; width: 55%; margin-left: 5%; font-size: 18px;">
             </p>
         </section>
